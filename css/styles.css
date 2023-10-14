@@ -9,6 +9,7 @@
 }
 
 body {
+  color: var(--slt);
   background-color: var(--wht);
   width: 1440px;
   font-family: 'Roboto', sans-serif;
@@ -27,6 +28,8 @@ nav {
   text-decoration: none;
   text-transform: uppercase;
   color: var(--iris);
+  letter-spacing: 0.54px;
+  line-height: 21px;
 }
 
 .logo-header > .logo-studio {

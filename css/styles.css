@@ -1,0 +1,150 @@
+:root {
+  --iris: #4d5ae5;
+  --nv: #2e2f42;
+  --cloud: #f4f4fd;
+  --wht: #fff;
+  --slt: #434455;
+}
+
+body {
+  background-color: var(--wht);
+  width: 1440px;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  height: 72px;
+  width: 1440px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.logo-header {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+
+.logo-header > .logo-studio {
+  color: var(--nv);
+}
+
+.logo-footer {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+
+.logo-footer > .logo-studio {
+  color: var(--cloud);
+}
+.nav > li a {
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  color: var(--nv);
+}
+.address a {
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--slt);
+  text-decoration: none;
+}
+
+.order-box {
+  background-color: var(--nv);
+  height: 600px;
+  width: 1440px;
+}
+
+.order-box-text {
+  color: var(--wht);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 1.12px;
+}
+
+.order-box-button {
+  background-color: var(--iris);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
+
+.advantages h3 {
+  width: 264px;
+  color: var(--nv);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+
+.advantages p {
+  width: 264px;
+  color: var(--slt);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+main h2 {
+  color: var(--nv);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.wawd li img {
+  height: 300px;
+  width: 360px;
+}
+
+.ot li img {
+  width: 264px;
+  height: 260px;
+}
+
+.ot li h3 {
+  color: var(--nv);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+
+.ot li p {
+  color: var(--slt);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+footer {
+  background-color: var(--nv);
+  width: 1440px;
+  height: 312px;
+}
+
+.text-footer {
+  width: 264px;
+  color: var(--cloud);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}

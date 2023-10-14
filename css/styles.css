@@ -5,7 +5,6 @@
   --wht: #fff;
   --slt: #434455;
   --ocean: #404bbf;
-  --corn: #e7e9fc;
 }
 
 body {
@@ -153,7 +152,7 @@ footer {
 }
 .filter-item > li > button {
   height: 48px;
-  background-color: var(--corn);
+  background-color: var(--cloud);
   color: var(--iris);
   font-size: 16px;
   font-weight: 500;

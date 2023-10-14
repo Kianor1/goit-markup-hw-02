@@ -4,6 +4,8 @@
   --cloud: #f4f4fd;
   --wht: #fff;
   --slt: #434455;
+  --ocean: #404bbf;
+  --corn: #e7e9fc;
 }
 
 body {
@@ -74,7 +76,7 @@ nav {
 .order-box-button {
   background-color: var(--iris);
   border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -141,6 +143,39 @@ footer {
 .text-footer {
   width: 264px;
   color: var(--cloud);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+.filter-item > li > button {
+  height: 48px;
+  background-color: var(--corn);
+  color: var(--iris);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
+
+.filter-item > li > button:hover {
+  background-color: var(--ocean);
+  color: var(--wht);
+}
+.services img {
+  height: 300px;
+}
+
+.services h3 {
+  color: var(--nv);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+
+.services p {
+  color: var(--slt);
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;

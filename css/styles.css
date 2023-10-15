@@ -80,6 +80,11 @@ body {
   letter-spacing: 0.32px;
 }
 
+.nav-item:hover,
+.nav-item:focus {
+  color: var(--ocean);
+}
+
 .contact-item {
   font-size: 16px;
   font-style: normal;
@@ -88,10 +93,6 @@ body {
   letter-spacing: 0.02em;
 }
 
-.contact-item:hover,
-.contact-item:focus {
-  color: var(--ocean);
-}
 /* ======FOOTER====== */
 /* ======/FOOTER====== */
 /* ======STUDIO====== */

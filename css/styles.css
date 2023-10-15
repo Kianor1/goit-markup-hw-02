@@ -63,7 +63,6 @@ body {
 }
 /* ======/COMPONENT====== */
 /* ======HEADER====== */
-/* ======/HEADER====== */
 .nav {
   color: var(--nv);
   font-size: 16px;
@@ -98,13 +97,40 @@ body {
 .contact-item:focus {
   color: var(--ocean);
 }
-
+/* ======/HEADER====== */
 /* ======FOOTER====== */
 .footer {
   background-color: var(--nv);
 }
 /* ======/FOOTER====== */
 /* ======STUDIO====== */
+.hero {
+  background-color: var(--nv);
+}
+
+.hero-title {
+  color: var(--wht);
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.hero-btn {
+  background-color: var(--iris);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--wht);
+  cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--ocean);
+}
 /* ======/STUDIO====== */
 /* ======PORTFOLIO====== */
 /* ======/PORTFOLIO====== */

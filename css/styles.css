@@ -19,6 +19,8 @@
 
 body {
   font-family: var(--font-reg);
+  color: var(--slt);
+  border-color: var(--wht);
 }
 
 /* ======COMPONENT====== */
@@ -45,8 +47,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  width: 264px;
-}
+  }
 
 .text-reg {
   color: var(--slt);

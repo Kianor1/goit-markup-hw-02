@@ -94,8 +94,6 @@ address {
   color: var(--wht);
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.07em;
-  text-align: center;
   letter-spacing: 1.12px;
 }
 
@@ -177,8 +175,9 @@ footer {
   color: var(--nv);
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 21.07em;
   letter-spacing: 0.4px;
+  text-align: center;
 }
 
 .services p {

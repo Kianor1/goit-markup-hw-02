@@ -132,7 +132,7 @@ body {
   background-color: var(--ocean);
 }
 
-.advantages-title {
+.advantages-item-title {
   color: var(--nv);
   font-size: 20px;
   font-weight: 500;

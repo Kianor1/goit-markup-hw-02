@@ -42,15 +42,20 @@ body {
   color: var(--cloud);
 }
 
-.text {
+.contact {
+  color: var(--slt);
   font-size: 16px;
+  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
-.text-reg {
-  color: var(--slt);
+.text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 
 .text-footer {
@@ -67,8 +72,15 @@ body {
   letter-spacing: 0.32px;
 }
 
-.contact {
-  color: var(--slt);
+.nav-item {
+  color: var(--nv);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.contact-item {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;

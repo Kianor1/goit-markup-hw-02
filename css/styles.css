@@ -86,11 +86,17 @@ body {
 }
 
 .contact-item {
+  color: var(--slt);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.contact-item:hover,
+.contact-item:focus {
+  color: var(--ocean);
 }
 
 /* ======FOOTER====== */

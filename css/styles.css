@@ -142,10 +142,11 @@ body {
 
 .wawd-title {
   color: var(--nv);
+  text-align: center;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
 }
 
 /* ======/STUDIO====== */

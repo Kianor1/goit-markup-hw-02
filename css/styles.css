@@ -131,6 +131,15 @@ body {
 .hero-btn:focus {
   background-color: var(--ocean);
 }
+
+.advantages-title {
+  color: var(--nv);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
 /* ======/STUDIO====== */
 /* ======PORTFOLIO====== */
 /* ======/PORTFOLIO====== */

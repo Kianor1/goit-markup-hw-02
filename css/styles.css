@@ -2,7 +2,7 @@
   --iris: #4d5ae5;
   --nv: #2e2f42;
   --cloud: #f4f4fd;
-  --wht: #fff;
+  --wht: #ffffff;
   --slt: #434455;
   --ocean: #404bbf;
   --font-title: Raleway, sans-serif;
@@ -26,11 +26,11 @@ body {
 /* ======COMPONENT====== */
 .logo {
   color: var(--iris);
-  font-family: var(--font-title)
-  font-size: 18px;
+  font-family: var(--font-title);
+  font-style: 18px;
   font-weight: 800;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -47,7 +47,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  }
+}
 
 .text-reg {
   color: var(--slt);

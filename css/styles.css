@@ -27,7 +27,7 @@ body {
 .logo {
   color: var(--iris);
   font-family: var(--font-title);
-  font-style: 18px;
+  font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;

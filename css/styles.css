@@ -101,7 +101,7 @@ body {
 
 /* ======FOOTER====== */
 .footer {
-  border-color: var(--nv);
+  background-color: var(--nv);
 }
 /* ======/FOOTER====== */
 /* ======STUDIO====== */

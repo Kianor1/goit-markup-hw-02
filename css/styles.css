@@ -179,6 +179,6 @@ body {
 .filter-item-btn:hover,
 .filter-item-btn:focus {
   color: var(--wht);
-  background-color: var(--cloud);
+  background-color: var(--ocean);
 }
 /* ======/PORTFOLIO====== */

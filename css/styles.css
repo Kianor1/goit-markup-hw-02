@@ -16,7 +16,8 @@ body {
 nav {
   font-weight: 500;
 }
-nav .link {
+
+nav > .link {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -24,7 +25,6 @@ nav .link {
   text-decoration: none;
   text-transform: uppercase;
   color: var(--iris);
-
   letter-spacing: 0.54px;
 }
 
@@ -32,7 +32,7 @@ nav .link > .logo-studio {
   color: var(--nv);
 }
 
-.nav-list-item {
+.list .link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -41,8 +41,8 @@ nav .link > .logo-studio {
   background-color: var(--cloud);
 }
 
-nav .nav-list-item:hover,
-nav .nav-list-item:focus {
+.list .link:hover,
+.list .link:focus {
   color: var(--cloud);
   background-color: var(--ocean);
 }

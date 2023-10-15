@@ -150,6 +150,21 @@ body {
   text-transform: capitalize;
 }
 
+.oteam {
+  background-color: var(--cloud);
+}
+
+.ot-list-item {
+  background-color: var(--wht);
+}
+
+.ot-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--nv);
+}
 /* ======/STUDIO====== */
 /* ======PORTFOLIO====== */
 /* ======/PORTFOLIO====== */

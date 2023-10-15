@@ -20,7 +20,7 @@
 body {
   font-family: var(--font-reg);
   color: var(--slt);
-  border-color: var(--wht);
+  background-color: var(--wht);
 }
 
 /* ======COMPONENT====== */

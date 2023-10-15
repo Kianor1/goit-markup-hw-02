@@ -5,12 +5,8 @@
   --wht: #fff;
   --slt: #434455;
   --ocean: #404bbf;
-}
-
-body {
-  color: var(--slt);
-  background-color: var(--wht);
-  font-family: 'Roboto', sans-serif;
+  --font-title: Raleway, sans-serif;
+  --font-reg: Roboto, sans-serif;
 }
 
 .list {
@@ -21,191 +17,66 @@ body {
   text-decoration: none;
 }
 
-nav {
-  font-weight: 500;
+body {
+  font-family: var(--font-reg);
 }
 
-nav > .logo {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17em;
-  text-transform: uppercase;
+/* ======COMPONENT====== */
+.logo {
   color: var(--iris);
+  font-family: var(--font-title)
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
   letter-spacing: 0.54px;
-}
-
-nav .logo > .logo-studio {
-  color: var(--nv);
-}
-
-.filter {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--nv);
-}
-
-.filter-item {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--nv);
-}
-
-nav .list .link:hover,
-nav .list .link:focus {
-  color: var(--ocean);
-}
-
-.logo-footer {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  text-decoration: none;
   text-transform: uppercase;
-  color: var(--iris);
 }
 
-.logo-footer > .logo-studio {
+.logo-studio-header {
+  color: var(--nv);
+}
+
+.logo-studio-footer {
   color: var(--cloud);
 }
 
-.list {
-  list-style: none;
-  font-weight: 500;
-  font-size: 16px;
-  text-decoration: none;
-  color: var(--nv);
-}
-
-address {
-  font-style: normal;
-}
-
-.address .list .link {
-  font-style: normal;
+.text {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  color: var(--slt);
-  letter-spacing: 0.02em;
-  text-decoration: none;
-}
-
-.address .list .link:hover,
-.address .list .link:focus {
-  color: var(--ocean);
-}
-
-.order-box {
-  background-color: var(--nv);
-}
-
-.order-box-text {
-  color: var(--wht);
-  font-size: 56px;
-  font-weight: 700;
-  letter-spacing: 1.12px;
-}
-
-.order-box-button {
-  background-color: var(--iris);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
-}
-
-.advantages h3 {
-  color: var(--nv);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
-}
-
-.advantages p {
-  color: var(--slt);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
   letter-spacing: 0.32px;
+  width: 264px;
 }
 
-main h2 {
-  color: var(--nv);
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.72px;
-  text-transform: capitalize;
-}
-
-.ot li h3 {
-  color: var(--nv);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
-}
-
-.ot li p {
+.text-reg {
   color: var(--slt);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-}
-
-footer {
-  background-color: var(--nv);
 }
 
 .text-footer {
   color: var(--cloud);
+}
+/* ======/COMPONENT====== */
+/* ======HEADER====== */
+/* ======/HEADER====== */
+.nav {
+  color: var(--nv);
   font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
+  font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.filter-item > li > button {
-  color: var(--wht);
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
-  text-decoration: none;
-  cursor: pointer;
-}
 
-.filter-item > li > button:hover,
-.filter-item > li > button:focus {
-  background-color: var(--ocean);
-}
-
-.services h3 {
-  color: var(--nv);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.11em;
-  letter-spacing: 0.4px;
-  text-align: center;
-}
-
-.services p {
+.contact {
   color: var(--slt);
   font-size: 16px;
+  font-style: normal;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
-
-.name-filter-serv {
-  font-style: 56px;
-  line-height: 1.07em;
-  text-align: center;
-}
+/* ======FOOTER====== */
+/* ======/FOOTER====== */
+/* ======STUDIO====== */
+/* ======/STUDIO====== */
+/* ======PORTFOLIO====== */
+/* ======/PORTFOLIO====== */

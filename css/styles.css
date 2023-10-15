@@ -43,12 +43,15 @@ nav .link > .logo-studio {
 .logo-footer > .logo-studio {
   color: var(--cloud);
 }
-.nav > li a {
+
+.list {
+  list-style: none;
   font-weight: 500;
   font-size: 16px;
   text-decoration: none;
   color: var(--nv);
 }
+
 .address a {
   font-style: normal;
   font-size: 16px;

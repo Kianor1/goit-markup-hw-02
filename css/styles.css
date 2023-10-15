@@ -30,6 +30,12 @@ nav {
 nav .link > .logo-studio {
   color: var(--nv);
 }
+.nav-list-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 
 .logo-footer {
   font-family: 'Raleway', sans-serif;

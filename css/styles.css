@@ -159,16 +159,17 @@ footer {
 }
 .filter-item > li > button {
   background-color: var(--cloud);
-  color: var(--iris);
+  color: var(--wht);
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.64px;
 }
 
-.filter-item > li > button:hover {
+.filter-item > li > button:hover,
+.filter-item > li > button:focus {
   background-color: var(--ocean);
-  color: var(--wht);
 }
 
 .services h3 {
